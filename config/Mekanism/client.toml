@@ -30,7 +30,7 @@
 	#Particle Config
 	[client.particle]
 		#Set to false to prevent particle spam when loading multiblocks (notification message will display instead).
-		enableMultiblockFormationParticles = true
+		enableMultiblockFormationParticles = false
 		#Show particles when machines active.
 		machineEffects = false
 		#How far (in blocks) from the player radiation particles can spawn.
@@ -40,7 +40,7 @@
 		#Show bolts when the Magnetic Attraction Unit is pulling items.
 		magneticAttraction = true
 		#Show bolts for various AOE tool behaviors such as tilling, debarking, and vein mining.
-		toolAOE = true
+		toolAOE = false
 
 	#GUI Config
 	[client.gui]
