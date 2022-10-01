@@ -9,7 +9,7 @@
 
     # Chunk loaders from before version 1.2.0 are not bound to a player. Should these chunk loaders' loaded chunks stay loaded?
     # Allowed values: true, false - Default: true
-    allowLegacyLoadedChunks = true
+    allowLegacyLoadedChunks = false
 
 [General]
     # In what radius should the Single Chunk Loader be able to load chunks?
@@ -26,9 +26,9 @@
 
     # In what radius should the Basic Chunk Loader be able to load chunks?
     # Allowed range: 1 ~ 6 - Default: 2
-    basicChunkLoaderRadius = 2
+    basicChunkLoaderRadius = 1
 
     # In what radius should the Ultimate Chunk Loader be able to load chunks?
     # Allowed range: 1 ~ 6 - Default: 4
-    ultimateChunkLoaderRadius = 4
+    ultimateChunkLoaderRadius = 2
 
