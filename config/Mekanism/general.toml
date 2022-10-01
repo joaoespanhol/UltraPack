@@ -12,7 +12,7 @@
 	#Any mod ids added to this list will not be able to have any of their blocks, picked up by the cardboard box. For example: ["mekanism"]
 	cardboardModBlacklist = ["*"]
 	#Allow right clicking on Cables/Pipes/Tubes with alloys to upgrade the tier.
-	transmitterAlloyUpgrade = true
+	transmitterAlloyUpgrade = false
 	#Base factor for working out machine performance with upgrades - UpgradeModifier * (UpgradesInstalled/UpgradesPossible).
 	#Range: > 1
 	maxUpgradeMultiplier = 10
